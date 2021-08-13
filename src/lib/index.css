@@ -1,0 +1,75 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.r-weather {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.r-weather> .is-small.is-oneline, .r-weather> .is-normal.is-oneline {
+  /*display: inline-block;*/
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  padding: 0 20px 0 45px;
+  position: relative;
+}
+
+.r-weather> .is-small.is-oneline> .r-weather-icon, .r-weather> .is-normal.is-oneline> .r-weather-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.r-weather> .is-small.is-multiline {
+  display: inline-block;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+}
+
+.r-weather> .is-small.is-multiline> .r-weather-icon {
+  margin: 0 auto;
+}
+
+.r-weather> .is-small.is-multiline> p {
+  height: 24px;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.r-weather> .is-normal.is-multiline {
+  display: inline-block;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+}
+
+.r-weather> .is-normal.is-multiline> .r-weather-icon {
+  margin: 0 auto;
+}
+
+.r-weather> .is-normal.is-multiline> .map {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.r-weather> .is-normal.is-multiline> .map div {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: -14px;
+  vertical-align: middle;
+}
+
+.r-weather> .is-normal.is-multiline> p {
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+}
