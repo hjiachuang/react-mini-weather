@@ -13,10 +13,10 @@
 ### 项目展示
 效果同 [vue-mini-weather展示页](https://apia.aidioute.cn/resource/vue-mini-weather/)
 
-> 基于React框架开发的一款迷你天气预报展示的小组件，目前只支持中国大陆的天气预报，原因在更新公告中有，有问题请提[issue](https://github.com/hjiachuang/react-mini-weather/issues)
+> 基于React框架开发的一款迷你天气预报展示的小组件，目前只支持中国大陆的天气预报，原因在 [vue-mini-weather](https://github.com/hjiachuang/vue-mini-weather) 更新公告中有，有问题请提[issue](https://github.com/hjiachuang/react-mini-weather/issues)
 
 ### 使用
-没有打包上传到npm仓库，具体内容看下面的注意事项。
+没有打包上传到npm仓库，具体原因看下面的注意事项。
 
 复制 `src> lib` 整个目录到自己的项目中，然后
 ```javascript
